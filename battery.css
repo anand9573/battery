@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgb(250, 8, 8);
+    color: black;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer a:link,
+footer a:visited {
+    color: blue;
+    text-decoration: none;
+    cursor: auto;
+}
+
+footer a:link:active,
+footer a:visited:active {
+    color: black;
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.navbar a:link:active,
+.navbar a:visited:active {
+    color: black;
+}
